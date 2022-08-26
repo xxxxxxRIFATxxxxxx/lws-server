@@ -1,14 +1,28 @@
 {
-  "name": "lws-json-server-todos",
-  "description": "Example in memory todos api with json-server by Learn with Sumit",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "Learn with Sumit",
-  "dependencies": {
-    "json-server": "^0.17.0"
-  }
+    "name": "lws-server",
+    "version": "1.0.0",
+    "description": "lws Server",
+    "main": "app.js",
+    "scripts": {
+        "start": "NODE_ENV=production node app.js",
+        "development": "NODE_ENV=development nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xxxxxxRIFATxxxxxx/lws-server.git"
+    },
+    "author": "Md. Rifat Islam",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/xxxxxxRIFATxxxxxx/lws-server/issues"
+    },
+    "homepage": "https://github.com/xxxxxxRIFATxxxxxx/lws-server#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^14.2.0",
+        "express": "^4.17.2",
+        "http-errors": "^2.0.0",
+        "mongoose": "^6.1.7"
+    }
 }
